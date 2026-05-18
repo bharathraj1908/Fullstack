@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <title>Table and Forms</title>
+</head>
+
+<body>
+
+    <h1>Product Details Form</h1>
+
+    <form>
+
+        <label>Product Name</label><br>
+        <input type="text" required><br><br>
+
+        <label>Product Category</label><br>
+        <select required>
+            <option value="" selected disabled>Select Product Category</option>
+            <option>Dairy Product</option>
+            <option>Furniture Product</option>
+            <option>Electronic Product</option>
+            <option>Grocery Product</option>
+            <option>Clothing Product</option>
+            <option>Sports Product</option>
+            <option>Kitchen Product</option>
+            <option>Beauty Product</option>
+            <option>Stationery Product</option>
+            <option>Automobile Product</option>
+        </select><br><br>
+
+        <label>Product Price</label><br>
+        <input type="number" required><br><br>
+
+        <label>Product Quantity</label><br>
+        <input type="number" placeholder="Enter the quantity" required><br><br>
+
+        <label>Upload Product Image</label><br>
+        <input type="file" required><br><br>
+
+        <label>Enter Product City</label><br>
+        <input type="text" placeholder="Enter the city" required><br><br>
+
+        <label>Enter the Ship ID</label><br>
+        <input type="number" required><br><br>
+
+        <label>Product Weight (kg)</label><br>
+        <input type="number" required><br><br>
+
+        <label>Product License Number Available</label><br>
+        <input type="radio" name="license" required> Yes<br>
+        <input type="radio" name="license"> No<br><br>
+
+        <label>Approved Licenses</label><br>
+        <input type="checkbox"> FSSAI<br>
+        <input type="checkbox"> GST<br>
+        <input type="checkbox"> Food License<br><br>
+
+        <input type="submit" value="Submit Product">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+    <br><br>
+
+    <h2>Product Table</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>P Name</th>
+                <th>P Category</th>
+                <th>P Price</th>
+                <th>P Quantity</th>
+                <th>P City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Milk</td>
+                <td>Dairy Product</td>
+                <td>23</td>
+                <td>5</td>
+                <td>Chennai</td>
+        
+            </tr>
+
+            <tr>
+                <td>TV</td>
+                <td>Electronic Product</td>
+                <td>25000</td>
+                <td>1</td>
+                <td>Salem</td>
+                
+            </tr>
+
+            <tr>
+                <td>Mobile</td>
+                <td>Electronic Product</td>
+                <td>20000</td>
+                <td>2</td>
+                <td>Trichy</td>
+
+            </tr>
+
+            <tr>
+                <td>Sofa</td>
+                <td>Furniture Product</td>
+                <td>15000</td>
+                <td>2</td>
+                <td>Coimbatore</td>
+    
+            </tr>
+
+            <tr>
+                <td>Rice</td>
+                <td>Grocery Product</td>
+                <td>60</td>
+                <td>10</td>
+                <td>Madurai</td>
+            </tr>
+
+            <tr>
+                <td>Cricket Bat</td>
+                <td>Sports Product</td>
+                <td>2500</td>
+                <td>4</td>
+                <td>Chennai</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
