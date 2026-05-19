@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IPL Player Registration Form</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="../Images/logo.png" width="200" height="200" alt="ipl">
+    <h1>IPL Player Registration Form</h1>
+    <p>Fill in the player details for IPL selection.</p>
+
+    <form>
+
+        <label>Player Name:</label><br>
+        <input type="text" name="name" placeholder="Enter player name" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" min="14" max="45" required><br><br>
+
+        <label>Email ID:</label><br>
+        <input type="email" name="email" placeholder="Enter email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter mobile number" required><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Player Role:</label><br>
+        <input type="radio" name="role" value="Batsman" required> Batsman<br>
+        <input type="radio" name="role" value="Bowler"> Bowler<br>
+        <input type="radio" name="role" value="All-Rounder"> All-Rounder<br>
+        <input type="radio" name="role" value="Wicket Keeper"> Wicket Keeper<br><br>
+
+        <label>Batting Style:</label><br>
+        <select name="batting-style" required>
+            <option value="">Select Batting Style</option>
+            <option>Right Handed</option>
+            <option>Left Handed</option>
+        </select><br><br>
+
+        <label>Bowling Style:</label><br>
+        <select name="bowling-style" required>
+            <option value="">Select Bowling Style</option>
+            <option>Right Arm Fast</option>
+            <option>Left Arm Fast</option>
+            <option>Right Arm Spin</option>
+            <option>Left Arm Spin</option>
+            <option>Not Applicable</option>
+        </select><br><br>
+
+        <label>First Class Matches:</label><br>
+        <input type="number" name="experience" min="0" max="20" required><br><br>
+
+        <label>Favorite IPL Team:</label><br>
+        <select name="team" required>
+            <option value="">Select Team</option>
+            <option>Chennai Super Kings</option>
+            <option>Mumbai Indians</option>
+            <option>Royal Challengers Bengaluru</option>
+            <option>Kolkata Knight Riders</option>
+            <option>Sunrisers Hyderabad</option>
+            <option>Rajasthan Royals</option>
+            <option>Delhi Capitals</option>
+            <option>Punjab Kings</option>
+            <option>Lucknow Super Giants</option>
+            <option>Gujarat Titans</option>
+        </select><br><br>
+
+        <label>Special Skills:</label><br>
+        <input type="checkbox" name="skills" value="Power Hitting"> Power Hitting<br>
+        <input type="checkbox" name="skills" value="Death Bowling"> Death Bowling<br>
+        <input type="checkbox" name="skills" value="Excellent Fielding"> Excellent Fielding<br>
+        <input type="checkbox" name="skills" value="Captaincy"> Captaincy<br><br>
+
+        <label>Preferred Jersey Number:</label><br>
+        <input type="number" name="jersey" min="1" max="999" required><br><br>
+
+        <label>Upload Player Photo:</label><br>
+        <input type="file" name="photo" required><br><br>
+
+        <label>Performance Rating (1 to 10):</label><br>
+        <input type="number" name="rating" min="1" max="10" required><br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="40" required></textarea><br><br>
+
+        <input type="checkbox" name="terms" required>
+        I confirm that the above information is correct.<br><br>
+
+        <input type="submit" value="Submit Application">
+    </section>
+</div>
+    </form>
+
+</body>
+
+</html>
