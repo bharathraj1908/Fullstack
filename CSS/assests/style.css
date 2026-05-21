@@ -1,0 +1,32 @@
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    color: blue;
+
+}
+
+p {
+    color: green;
+    background-color: white;
+}
+
+.read{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#check{
+    color: pink;
+    background-color: blueviolet;
+}
+
+.new{
+    background-color: blueviolet;
+    color: red;
+}
+
+.you{
+    background-color: blue;
+}
