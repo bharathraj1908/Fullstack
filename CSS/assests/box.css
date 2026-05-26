@@ -1,0 +1,31 @@
+.box{
+    background-color: lightblue;
+    border: 8px solid blue;
+    padding: 40px;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.new{
+    background-color: lightgreen;
+    border: 8px solid green;
+    padding: 35px;
+}
+
+.site{
+    background-color: darkslateblue;
+    border: 8px solid navy;
+    padding: 30px;
+    color: white;
+}
+
+h1{
+    margin: 0px 0px 20px 0px;
+}
+
+p{
+    margin: 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
