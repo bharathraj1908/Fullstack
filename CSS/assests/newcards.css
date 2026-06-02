@@ -1,0 +1,21 @@
+.new{
+    background-color: black;
+
+    
+}
+.cards{
+    background-color: beige;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: ;
+
+
+}
+
+.cards img {
+    height: 100px;
+    width: 100px;
+
+}

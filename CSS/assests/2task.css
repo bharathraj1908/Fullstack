@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#111;
+}
+
+.btn{
+    padding:15px 40px;
+    border:none;
+    background:#00b894;
+    color:white;
+    font-size:20px;
+    border-radius:50px;
+    transition:0.4s ease;
+}
+
+.btn:hover{
+    transform:scale(1.15);
+    background:#00cec9;
+    cursor:pointer;
+}
