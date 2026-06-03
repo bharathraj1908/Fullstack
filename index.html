@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Assignments Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#e0f2fe,#fef9c3,#fce7f3);
+}
+
+/* Navbar */
+nav{
+    background:linear-gradient(90deg,#1e3a8a,#0f172a);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:26px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:8px 12px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(135deg,#2563eb,#ec4899);
+    color:white;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* Section */
+section{
+    padding:50px 40px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:30px;
+    color:#1e293b;
+}
+
+/* Cards */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+/* Card */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.4s;
+    border-top:5px solid #38bdf8;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* Links */
+.card a{
+    display:block;
+    text-decoration:none;
+    background:#f1f5f9;
+    color:#111827;
+    padding:10px;
+    margin:8px 0;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.card a:hover{
+    background:#38bdf8;
+    color:white;
+    transform:translateX(6px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+    color:white;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">Bharath Raj Assignments</div>
+    <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#bootstrap">Bootstrap</a></li>
+        <li><a href="#tailwind">Tailwind</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>My Web Development Assignments</h1>
+</div>
+
+<!-- HTML -->
+<section id="html">
+<h2>HTML Assignments</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Day 4</h3>
+<a href="../HTML/Day5/webpage.html">Basic Webpage</a>
+<a href="../HTML/Day5/election.html">Election Website</a>
+</div>
+
+<div class="card">
+<h3>Day 5</h3>
+<a href="../HTML/Ipl/iplwebsite.html">IPL Website</a>
+</div>
+
+<div class="card">
+<h3>Day 6</h3>
+<a href="../HTML/input/inputelements.html">Input Elements</a>
+</div>
+
+<div class="card">
+<h3>Forms</h3>
+<a href="../HTML/form/collegeadmission.html">College Admission</a>
+<a href="../HTML/form/login.html">Login Page</a>
+<a href="../HTML/form/resume.html">Resume Builder</a>
+<a href="../HTML/form/Student.html">Student Registration</a>
+<a href="../HTML/form/table.html">Product Table</a>
+<a href="../HTML/form/tabledata.html">Employee Table</a>
+</div>
+
+</div>
+</section>
+
+<!-- CSS -->
+<section id="css">
+<h2>CSS Assignments</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Day 1 CSS</h3>
+<a href="../CSS/assests/syntax.txt">Syntax</a>
+<a href="../CSS/Day1/inline.html">Inline CSS</a>
+<a href="../CSS/Day1/internal.html">Internal CSS</a>
+<a href="../CSS/Day1/external.html">External CSS</a>
+</div>
+
+<div class="card">
+<h3>Day 2 CSS</h3>
+<a href="../CSS/Day2/box.html">Box Model</a>
+<a href="../CSS/Day2/wrapping.html">Wrapping</a>
+</div>
+
+<div class="card">
+<h3>Day 6 CSS</h3>
+<a href="../CSS/Day6/task1.html">Card Design</a>
+<a href="../CSS/Day6/task2.html">Button Animation</a>
+<a href="../CSS/Day6/task3.html">Profile Card</a>
+<a href="../CSS/Day6/task4.html">Image Gallery</a>
+<a href="../CSS/Day6/task5.html">Dashboard</a>
+</div>
+
+</div>
+</section>
+
+<!-- Bootstrap -->
+<section id="bootstrap">
+<h2>Bootstrap</h2>
+<div class="cards">
+<div class="card">
+<h3>Bootstrap Tasks</h3>
+<a href="../Tailwind/bootstrap.html">Bootstrap Basics</a>
+</div>
+</div>
+</section>
+
+<!-- Tailwind -->
+<section id="tailwind">
+<h2>Tailwind CSS</h2>
+<div class="cards">
+<div class="card">
+<h3>Tailwind Tasks</h3>
+<a href="../Tailwind/task1.html">Task 1</a>
+<a href="../Tailwind/task2.html">Task 2</a>
+<a href="../Tailwind/task3.html">Task 3</a>
+<a href="../Tailwind/task4.html">Task 4</a>
+<a href="../Tailwind/task5.html">Task 5</a>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 My Assignments Portfolio
+</footer>
+
+</body>
+</html>
