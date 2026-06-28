@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="heading">Welcome</h1>
+
+<button onclick="changeHeading()">Change</button>
+
+<script>
+const changeHeading = () => {
+    let head = document.getElementById("heading");
+
+    head.style.color = "red";
+    head.innerHTML = "JavaScript Learning";
+};
+</script>
+
+</body>
+</html>

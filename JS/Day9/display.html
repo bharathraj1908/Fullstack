@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="hero" placeholder="Enter Hero Name">
+<button onclick="showHero()">Show</button>
+
+<h2 id="result"></h2>
+
+<script>
+const showHero = () => {
+    let hero = document.getElementById("hero").value;
+    document.getElementById("result").innerHTML = hero;
+};
+</script>
+
+</body>
+</html>

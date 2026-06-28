@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="para">Hello JavaScript</p>
+
+<button onclick="togglePara()">Toggle</button>
+
+<script>
+const togglePara = () => {
+    let para = document.getElementById("para");
+
+    if (para.style.display === "none") {
+        para.style.display = "block";
+    } else {
+        para.style.display = "none";
+    }
+};
+</script>
+
+</body>
+</html>

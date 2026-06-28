@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="fname" placeholder="First Name">
+
+<input type="text" id="lname" placeholder="Last Name">
+
+<button onclick="showName()">Show Name</button>
+
+<h2 id="fullname"></h2>
+
+<script>
+const showName = () => {
+    let first = document.getElementById("fname").value;
+    let last = document.getElementById("lname").value;
+
+    document.getElementById("fullname").innerHTML = first + " " + last;
+};
+</script>
+
+</body>
+</html>

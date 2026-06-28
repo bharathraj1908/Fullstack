@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="username" placeholder="Enter Username">
+
+<button onclick="checkUser()">Login</button>
+
+<h2 id="result"></h2>
+
+<script>
+const checkUser = () => {
+    let user = document.getElementById("username").value;
+
+    if (user === "admin") {
+        document.getElementById("result").innerHTML = "Login Success";
+    } else {
+        document.getElementById("result").innerHTML = "Invalid User";
+    }
+};
+</script>
+
+</body>
+</html>
